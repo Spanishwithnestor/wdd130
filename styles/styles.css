@@ -37,3 +37,12 @@ aside {
     width: 20em;
     text-align: center;
 }
+main img {
+    /* Hello My name is Nestor Ferrari. I am from Argentina and I live in Buenos Aires the capital of my ccountry.I enjoy teaching Spanish my native language.I also enjoy learning English and programming.I love my family and to be a member of the church*/
+    float: right;
+}
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}

@@ -27,7 +27,7 @@ p {
 }
 .box {
     margin: 1rem;
-    border: solid rgba( green, blue,black);
+    border: 1px solid rgb(blue);
     padding: 1rem;
     background-color: beige;
     color: #000

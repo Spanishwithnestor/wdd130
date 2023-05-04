@@ -33,11 +33,11 @@ main img {
 }
 
 aside h2 {
-    position:relative
+    position: absolute;
     top: 47px;
     left: 150px;
 }
-
+/* CLass selector */
 .box {
     margin: 1em;
     border: 1px solid rgba(red, green, blue, alpha);

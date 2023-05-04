@@ -7,10 +7,8 @@
 --heading-font: "heading example", roboto;
 --paragraph-font:"Example font" , serif;
 
---nav-background-color: #xxxxxx;
---nav-link-color: #xxxxxx;
---nav-hover-link-color: #xxxxxx;
---nav-hover-background-color: #xxxxxx
+--nav-background-color: #666;
+--nav-hover-background-color: #000;
 }
 body {
     font:  var(--paragraph-font);

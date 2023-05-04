@@ -1,0 +1,17 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+:root  {
+--primary-color: #3edeeb;
+--secondary-color: #26f0f1;
+--accent1-color: #c4ebc8;
+--accent2-color: #86a5d9;
+--heading-font: "heading"roboto;
+--paragraph-font: "paragrapg" serif;
+
+--nav-bacgroundcolor: #666;
+--nav-hover-bacgroundcolor: #000;
+ }
+.hero img {
+display: block;
+width: 100%;
+height:auto;
+}

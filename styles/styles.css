@@ -25,23 +25,23 @@ img {
 p {
     padding: 10px;
 }
-.box {
-    margin: 1rem;
-    border: 1px solid rgb(red, green, blue);
-    padding: 1rem;
-    background-color: beige;
-    color: #000
-}
-aside {
-    width: 20em;
-    text-align: center;
-}
 main img {
-   /*Hello My name is Nestor Ferrari. I am from Argentina and I live in Buenos Aires the capital of my ccountry.I enjoy teaching Spanish my native language.I also enjoy learning English and programming.I love my family and to be a member of the church */
+   /*Hello My name is Nestor Ferrari. I am from Argentina and I live in Buenos Aires the capital of my ccountry.I enjoy teaching Spanish my native language.I also enjoy learning English and programming.I love my family and to be a member of the church*/
     float: right;
 }
 aside h2 {
     mask-position: 0dvh;
     top: 47px;
     left: 150px;
+}
+/* Class selector */
+.box {
+    margin: 1em;
+    border: 1px solid rgba(red, green, blue, alpha);
+    padding: 1rem;
+    color: skyblue;
+}
+aside {
+    width: 20em;
+    text-align: center;
 }

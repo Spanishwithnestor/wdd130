@@ -3,28 +3,40 @@
     --primary-color: #3edeeb;
     --secondary-color: #26f0f1;
     --accent1-color: #c4ebc8;
-    --accent2-color: #86a5d9;
-    --heading-color: #3edeeb;
-  }
+    --accent2-color: #333;
+    --primary-font:var(--accent2-color);
+    --font-text:var(--primary-color);
+     }
+     h1 {
+        position: absolute;
+        font-size:xx-large;
+        text-align: center;
+        padding: auto;
+     }
+     article {
+        position: absolute; 
+        background-color:#c4ebc8
 
-p {
-    position: relative;
-    color: #26f0f1;
-}
-
+     }
+     h2 {
+        font-size:x-large;
+        text-align: center;
+    
+     }
+     p {
+        text-align: center;
+     }
+     nav a {
+        display: block;
+        color: var(--nav-link-color);
+        text-decoration: none; <<<<< This is what you need
+        padding: 1rem;
+    }
+    .page {
+    width: 50%;
+    }
 .hero img {
-display: block;
-width: 100%;
-height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
 }
-h1 {
-    position: absolute;
-    color:#3edeeb;
-    font:red;
-     }
-.info {
-        position:absolute ;
-     }
-     img  {
-        float: right;
-     }

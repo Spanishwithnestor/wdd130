@@ -1,42 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 :root  {
     --primary-color: #3edeeb;
-    --secondary-color: #26f0f1;
-    --accent1-color: #c4ebc8;
-    --accent2-color: #333;
-    --primary-font:var(--accent2-color);
-    --font-text:var(--primary-color);
-     }
-     h1 {
-        position: absolute;
-        font-size:xx-large;
-        text-align: center;
-        padding: auto;
-     }
-     article {
-        position: absolute; 
-        background-color:#c4ebc8
-
-     }
-     h2 {
-        font-size:x-large;
-        text-align: center;
     
      }
-     p {
-        text-align: center;
+     body{
+      width: 450px;
+      color: blue
      }
-     nav a {
-        display: block;
-        color: var(--nav-link-color);
-        text-decoration: none; <<<<< This is what you need
-        padding: 1rem;
+  
+  .info {
+   position: relative;
+   text-align: center;
+   top: 5px;
+  }
+  h1 {
+   position: absolute;
+   font-size:x-large;
+   top: 50px;
+   left: 25%;
+   right: 0%;
+   color: blue;
+
+  }
+  p1 {
+   position:absolute;
+   right: 0%;
+   top: 290px;
+   font-size:large;
+   font-family:cursive;
+   color:black;
+   
     }
-    .page {
-    width: 50%;
+    p {
+      position: relative;
+      top: 5px;
+      color:black;
+      font-style: italic;
+      font-size: large;
     }
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
+    h2 {
+      color: blue;
+    }

@@ -7,12 +7,11 @@
       width: 450px;
       color: blue
      }
-  
-  .info {
-   position: relative;
-   text-align: center;
-   top: 5px;
-  }
+     .info {
+      position: relative;
+      text-align: center;
+      top: 5px;
+     }
   h1 {
    position: absolute;
    font-size:x-large;
@@ -20,15 +19,22 @@
    left: 25%;
    right: 0%;
    color: blue;
+   padding-top: 14px;
+   padding-left: 20px;
+   padding-bottom: 5px;
+   padding-right: 20px;
+   background-color: antiquewhite;
+   border: 5px solid color black;
 
   }
   p1 {
    position:absolute;
-   right: 0%;
+   right: 5%;
    top: 290px;
    font-size:large;
    font-family:cursive;
    color:black;
+   background-color: aquamarine;
    
     }
     p {

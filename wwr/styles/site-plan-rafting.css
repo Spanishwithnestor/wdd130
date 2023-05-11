@@ -46,3 +46,7 @@ nav a:link, nav a:visited {
         backgroung-color var(--nav-hover-background-color)
     }
 
+#adventure {
+    position: absolute;
+    bottom: 1%;
+}

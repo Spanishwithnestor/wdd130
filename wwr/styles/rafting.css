@@ -24,7 +24,6 @@ margin-right: 20%;
   bottom: -10%;
 }
 #text {
-  z-index: 500%;
   position:absolute;
   color: black;
   font-size: 20px;

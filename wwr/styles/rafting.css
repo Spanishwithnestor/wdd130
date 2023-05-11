@@ -20,24 +20,27 @@ margin-right: 20%;
 }
 #client {
   position: absolute;
-  left: 95%;
-  bottom: 10%;
+  left: 60%;
+  bottom: -10%;
 }
 #text {
-  z-index: 100;
-  position: absolute;
+  z-index: 500%;
+  position:absolute;
   color: black;
   font-size: 20px;
   font-weight: bold;
-  left: 48px;
-  bottom: 3%
+  right: 40%;
+  left: 30%;
+  bottom: -10%
+  
+  
 }
 h1 {
   position:absolute;
-  top: 10%;
+  top: 5%;
   background-color: aqua; 
   text-align: center;
-  left: 11%;
+  left: 30%;
 }
 
  

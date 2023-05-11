@@ -7,15 +7,16 @@
  }
  body {
   background-color: aqua;
+  
 
  }
 
- #container {
+ #hero {
   height: 400px;
   width: 400px;
   position: relative;
 }
-#image {
+#client {
   position: absolute;
   left: 95%;
   bottom: 10%;
@@ -36,19 +37,6 @@ h1 {
   text-align: center;
   left: 11%;
 }
-#history {
-  position:absolute;
-  bottom:  5%;
-  text-align:left;
-  width: 50%;
-}
-#information {
-  position: absolute;
-  text-align: left;
-  
-}
-h2 {
-  position: relative;
-  bottom: 20%;
-}
+
+
 
